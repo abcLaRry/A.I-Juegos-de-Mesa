@@ -138,5 +138,6 @@ class Maquina(Juego):
         return casilla
 
 
-nuevoJuego = Juego()
-nuevoJuego.iniciar()
+if __name__ == "__main__":
+    nuevoJuego = Juego()
+    nuevoJuego.iniciar()
